@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "carro_id": "1",
+        "cliente_id": "1",
+        "dias": "3",
+        "valor": 1200,
+        "ativo": false
+    },
+    {
+        "id": 2,
+        "carro_id": "1",
+        "cliente_id": "1",
+        "dias": "3",
+        "valor": 1200,
+        "ativo": true
+    },
+    {
+        "id": 3,
+        "carro_id": "2",
+        "cliente_id": "1",
+        "dias": "2",
+        "valor": 400,
+        "ativo": true
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "modelo": "Sedan",
+        "marca": "Toyota",
+        "placa": "1854gb",
+        "ano": "2015",
+        "diaria": "400",
+        "disponivel": false
+    },
+    {
+        "id": 2,
+        "modelo": "Sedan",
+        "marca": "Ford",
+        "placa": "gbn1542",
+        "ano": "2023",
+        "diaria": "200",
+        "disponivel": false
+    }
+]
