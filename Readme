@@ -1,0 +1,89 @@
+# 🚗 Alucar - Sistema de Aluguel de Carros
+
+Sistema de gerenciamento de aluguel de carros desenvolvido em **PHP puro**, rodando diretamente no terminal (CLI). Projeto desenvolvido como exercício prático durante o curso de Desenvolvimento Full Stack.
+
+---
+
+## 📋 Funcionalidades
+
+- ✅ Cadastrar, editar, listar e deletar **carros**
+- ✅ Cadastrar, editar, listar e deletar **clientes**
+- ✅ Realizar e registrar **aluguéis**
+- ✅ **Devolver** carros alugados
+- ✅ Listar aluguéis ativos
+- ✅ Dados persistidos em **JSON**
+- ✅ Proteção contra exclusão de carros/clientes com aluguel ativo
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+alucar/
+├── index.php           # Ponto de entrada do sistema
+├── dados/              # Arquivos JSON (gerados automaticamente)
+│   ├── carros.json
+│   ├── clientes.json
+│   └── alugueis.json
+├── funcoes/            # Funções do sistema
+│   ├── json.php        # Leitura e escrita de dados
+│   ├── carros.php
+│   ├── clientes.php
+│   └── alugueis.php
+└── menus/              # Menus de navegação
+    ├── menu_principal.php
+    ├── menu_carros.php
+    ├── menu_clientes.php
+    └── menu_alugueis.php
+```
+
+---
+
+## 🚀 Como rodar
+
+### Pré-requisitos
+- PHP instalado (versão 7.4 ou superior)
+- XAMPP ou PHP standalone
+
+### Passos
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/alucar.git
+```
+
+2. Acesse a pasta:
+```bash
+cd alucar
+```
+
+3. Crie a pasta de dados:
+```bash
+mkdir dados
+```
+
+4. Crie os arquivos JSON vazios:
+```bash
+echo [] > dados/carros.json
+echo [] > dados/clientes.json
+echo [] > dados/alugueis.json
+```
+
+5. Execute o sistema:
+```bash
+php index.php
+```
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- PHP (CLI)
+- JSON para persistência de dados
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Gustavo Martins**  
+[LinkedIn](https://linkedin.com/in/gustavo-martins-ads) • [GitHub](https://github.com/gustavomartins199677-collab)
